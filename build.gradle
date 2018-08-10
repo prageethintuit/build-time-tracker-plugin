@@ -5,7 +5,7 @@ buildscript {
   }
   dependencies {
     classpath 'org.gradle.api.plugins:gradle-nexus-plugin:0.5.1'
-    classpath 'net.rdrei.android.buildtimetracker:gradle-plugin:0.11.0'
+    classpath 'net.rdrei.android.buildtimetracker:gradle-plugin:0.11.1'
   }
 }
 
@@ -44,7 +44,7 @@ dependencies {
 }
 
 group = 'net.rdrei.android.buildtimetracker'
-version = '0.12.0-SNAPSHOT'
+version = '0.11.2-SNAPSHOT'
 
 install {
   repositories.mavenInstaller {
@@ -71,13 +71,13 @@ modifyPom {
   project {
     name 'Gradle Build Time Tracker'
     description 'Gradle plugin which tracks your build times.'
-    url 'https://github.com/passy/build-time-tracker-plugin'
+    url 'https://github.com/prageethintuit/build-time-tracker-plugin'
     inceptionYear '2014'
 
     scm {
-      url 'https://github.com/passy/build-time-tracker-plugin'
-      connection 'scm:git:git://github.com/passy/build-time-tracker-plugin.git'
-      developerConnection 'scm:git:ssh://git@github.com/passy/build-time-tracker-plugin.git'
+      url 'https://github.com/prageethintuit/build-time-tracker-plugin'
+      connection 'scm:git:git://github.com/prageethintuit/build-time-tracker-plugin.git'
+      developerConnection 'scm:git:ssh://git@github.com/prageethintuit/build-time-tracker-plugin.git'
     }
 
     licenses {
